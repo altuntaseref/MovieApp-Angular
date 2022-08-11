@@ -9,6 +9,7 @@ export class CategoryComponent implements OnInit {
 
   constructor() { }
 
+  categories = ["macera","romantik","bilim kurgu","komedi"];
   ngOnInit(): void {
   }
 
