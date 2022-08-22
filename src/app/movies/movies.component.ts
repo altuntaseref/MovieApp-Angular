@@ -16,6 +16,7 @@ export class MoviesComponent implements OnInit {
   movies: Movie[] ;
   popularMovies: Movie[];
   movieRepository: MovieRepository;
+  filterText: string= "de";
   constructor() {
     this.movieRepository = new MovieRepository();
     this.movies = this.movieRepository.getMovies();

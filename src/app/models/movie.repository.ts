@@ -5,10 +5,10 @@ export class MovieRepository{
 
   constructor() {
     this.movies = [
-      {id:1, title: "film 1", description: "film 1 açıklama", imageUrl: "1.jpeg", isPopular:false},
-      {id:2, title: "film 2", description: "film 2 açıklama", imageUrl: "2.jpeg",isPopular:true},
-      {id:3, title: "film 3", description: "film 3 açıklama", imageUrl: "3.jpeg",isPopular:false},
-      {id:4, title: "film 4", description: "film 4 açıklama", imageUrl: "4.jpeg",isPopular:true}
+      {id:1, title: "film 1", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem, dignissimos eaque ipsa iste, itaque iusto magni natus officiis quia repellendus sit voluptates. Debitis labore molestiae saepe similique vel voluptas.\n", imageUrl: "1.jpeg", isPopular:false, datePublished:new Date(1990,10,10)},
+      {id:2, title: "film 2", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem, dignissimos eaque ipsa iste, itaque iusto magni natus officiis quia repellendus sit voluptates. Debitis labore molestiae saepe similique vel voluptas.\na", imageUrl: "2.jpeg",isPopular:true, datePublished:new Date(1990,10,10)},
+      {id:3, title: "film 3", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem, dignissimos eaque ipsa iste, itaque iusto magni natus officiis quia repellendus sit voluptates. Debitis labore molestiae saepe similique vel voluptas.\n", imageUrl: "3.jpeg",isPopular:false, datePublished:new Date(1990,10,10)},
+      {id:4, title: "film 4", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem, dignissimos eaque ipsa iste, itaque iusto magni natus officiis quia repellendus sit voluptates. Debitis labore molestiae saepe similique vel voluptas.\n", imageUrl: "4.jpeg",isPopular:true, datePublished:new Date(1990,10,10)}
     ]
   }
 
